@@ -1,0 +1,48 @@
+{
+    "name": "Prueba Segmentación longitudinal",
+    "version": "0.1.0",
+    "keywords": [
+      "segmentation",
+      "longitudinal"
+    ],
+    "shortdesc": "DSS service (segmentation longitudinal)",
+    "longdesc": "DSS service (segmentation longitudinal)",
+    "tags": [
+      {
+        "name": "FirstChannelS1",
+        "type": "MainImage",
+        "hint": "Una imagen sobre la que aplicar segmentación",
+        "required": true
+      },
+      {
+        "name": "SecondChannelS1",
+        "type": "OverlayImage",
+        "hint": "Otra imagen sobre la que aplicar sgementación",
+        "required": true
+      },
+      {
+        "name": "ThirdChannelS1",
+        "type": "OverlayImage",
+        "hint": "Otra imagen sobre la que aplicar sgementación",
+        "required": true
+      },
+      {
+        "name": "FirstChannelS2",
+        "type": "OverlayImage",
+        "hint": "Otra imagen sobre la que aplicar segmentación",
+        "required": true
+      },
+      {
+        "name": "SecondChannelS2",
+        "type": "OverlayImage",
+        "hint": "Otra imagen sobre la que aplicar sgementación",
+        "required": true
+      },
+      {
+        "name": "ThirdChannelS2",
+        "type": "OverlayImage",
+        "hint": "Otra imagen sobre la que aplicar sgementación",
+        "required": true
+      }
+    ]
+  }
